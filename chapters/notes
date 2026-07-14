@@ -1,0 +1,61 @@
+python application
+    Al & Machine Learning (ChatGPT, ML Models)
+    Web Development (Instagram, Reddit)
+    Data Analysis (Pandas, Excel++)
+    Automation (Scripts, Bots)
+    Game Development (Pygame)
+features
+    Simple syntax (like English)
+    Fast to learn and implement
+    Huge community support
+    Rich library ecosystem
+    Works on Windows, macOS, Linux
+    Developed by Guido van Rossum
+______________________________________________________
+
+Phase 1: Compilation Stage
+Lexical Analysis (Tokenization) – The source code is broken into tokens 
+(keywords, identifiers, operators, etc.).
+Parsing – Tokens are organized into an Abstract Syntax Tree (AST), and 
+syntax/indentation errors are checked.
+Bytecode Generation – The compiler converts the AST into platform-independent bytecode.
+Caching (.pyc File) – The bytecode is stored in the __pycache__ folder as a .pyc file 
+for faster execution next time.
+
+Phase 2: Interpretation Stage
+Python Virtual Machine (PVM) – The PVM reads and executes the bytecode instruction by
+ instruction.
+Machine Translation – The PVM converts bytecode into machine instructions specific to 
+the operating system during execution.
+Runtime Execution & Errors – The program runs, and if a runtime error occurs 
+(e.g., division by zero or undefined variable), 
+Python stops execution and displays an error message.
+
+Source Code (.py) → Tokenization → Parsing (AST) → Bytecode → 
+.pyc Cache → PVM → Machine Code → Output/Error
+______________________________________________________
+
+python shell
+    vs code-->terminal-->python
+    exit--> exit() or quit()  or ctrl+z --enter
+______________________________________________________
+
+# Object Types / Data Types
+
+- Number : 1234, 3.1415, 3+4j, 0b111, Decimal(),
+Fraction()
+- String : 'spam', "Bob's", b'a\x01c', u'sp\xc4m'
+- List : [1, [2, 'three'], 4.5], list(range(10))
+- Tuple : (1, 'spam', 4, 'U'), tuple('spam'), namedtuple
+- Dictionary : {'food': 'spam', 'taste': 'yum'}, dict
+(hours=10)
+
+- Set : set('abc'), {'a', 'b', 'c'}
+
+- File : open('eggs. txt'), open(r'C:\ham.bin', 'wb')
+- Boolean : True, False
+- None : None
+- Funtions, modules, classes
+
+- Advance: Decorators, Generators, Iterators,
+MetaProgramming
